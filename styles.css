@@ -1,14 +1,5 @@
 css
-.red {
-  color: red;
+h1.red {
+  color: red !important;
 }
 
-.animated {
-  animation-name: fadein;
-  animation-duration: 3s;
-}
-
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
