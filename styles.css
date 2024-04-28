@@ -1,5 +1,6 @@
-css
-h1.red {
-  color: red !important;
-}
-
+html
+<style>
+  h1.red {
+    color: red !important;
+  }
+</style>
