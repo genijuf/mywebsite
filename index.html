@@ -10,7 +10,7 @@ school slows me down and I don't learn anything valuable there.">
 </head>
 <body style="background-color:#006400; color:#fff;">
   <header>
-    <h1>Hello, this is my first website!</h1>
+    <h1 class="red">Hello, this is my first website!</h1>
   </header>
   <p>I love creating things for fun and learning new stuff it is really 
 fun, but school slows me down and I don't learn anything valuable there so
@@ -18,8 +18,25 @@ I really hate it! Also because I am bored, I am going to put all my info
 like adress and where can you contact me on this YouTube video because why
 not! Here's the video: <a 
 href="https://www.youtube.com/watch?v=_3wkyerSBpw">Link</a></p>
-  <h2>This is my first website ever and it was really fun creating 
-it!</h2>
+  <h2 class="red">This is my first website ever and it was really fun 
+creating it!</h2>
 </body>
 </html>
+```
+In the CSS file, add the following code:
+```css
+.red {
+  color: red;
+}
+
+.animated {
+  animation-name: fadein;
+  animation-duration: 3s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 
